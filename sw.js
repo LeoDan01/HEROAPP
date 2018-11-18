@@ -6,8 +6,11 @@ const STATIC_CACHE = 'static-v3';
 const DYNAMIC_CACHE = 'dynamic-v1';
 const INMUTABLE_CACHE = 'inmutable-v1';
 
+//EN MODO DE PRODUCCION NADA DEBE ESTAR EN LA RAIZ
+
+
 const APP_SHELL = [
-    '/',
+    // '/',
     'index.html',
     'css/style.css',
     'img/favicon.ico',
